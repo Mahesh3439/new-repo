@@ -1,0 +1,38 @@
+﻿@model WbAPI.Models.RegistrationList
+
+@{
+    ViewBag.Title = "RegistrationDetails";
+}
+
+<h4>Registration Details</h4>
+
+<div>
+   
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>Registration No </th>
+            <th>Make </th>
+            <th>Model </th>
+            <th>Owner Name</th>
+          
+        </tr>
+        @foreach (var d in Model.Registrations)
+        {
+            <tr>
+                <td>@d.RegistrationNo</td>
+                <td>@d.Make</td>
+                <td>@d.Model</td>
+                <td>@d.OwnerName</td>
+              
+
+            </tr>
+
+        }
+    </table>
+
+   
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

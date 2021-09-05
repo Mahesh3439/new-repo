@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Services>
+	<Service>
+		<Id>1</Id>
+		<ServiceName>tire change</ServiceName>		
+	</Service>
+	<Service>
+		<Id>2</Id>
+		<ServiceName>oil change</ServiceName>		
+	</Service>
+	<Service>
+		<Id>3</Id>
+		<ServiceName>alignment</ServiceName>		
+	</Service>
+	<Service>
+		<Id>4</Id>
+		<ServiceName>air filters change</ServiceName>
+	</Service>
+</Services>

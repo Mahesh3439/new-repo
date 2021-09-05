@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Registrations>
+  <Registration>
+    <RegistrationNo>1</RegistrationNo>
+    <Make>Make1</Make>
+    <Model>model1</Model>
+    <OwnerName>abc1</OwnerName>
+    <Service>air filters change</Service>
+  </Registration>
+  <Registration>
+    <RegistrationNo>2</RegistrationNo>
+    <Make>swift</Make>
+    <Model>2021</Model>
+    <OwnerName>Satya</OwnerName>
+    <Service>tire change</Service>
+  </Registration>
+  <Registration>
+    <RegistrationNo>3</RegistrationNo>
+    <Make>Pollo</Make>
+    <Model>2013</Model>
+    <OwnerName>Satya</OwnerName>
+    <Service>alignment</Service>
+  </Registration>
+</Registrations>

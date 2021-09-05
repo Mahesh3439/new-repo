@@ -1,0 +1,40 @@
+﻿@model WbAPI.Models.ServiceList
+
+@{
+    ViewBag.Title = "GetServices";
+}
+
+
+
+<div>
+
+    <h4>Services we provide : </h4>
+    <hr />
+    <div>
+
+        <table class="table table-bordered table-responsive table-hover">
+            <tr>
+                <th>S.No. </th>
+                <th>Service Name </th>
+
+
+            </tr>
+            @foreach (var d in Model.services)
+            {
+                <tr>
+                    <td>@d.Id</td>
+                    <td>@d.ServiceName</td>
+                </tr>
+
+            }
+        </table>
+
+
+    </div>
+
+
+</div>
+@*<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>*@
